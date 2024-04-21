@@ -113,6 +113,7 @@ endmodule
 ![322251775-4aa1b7bc-3e8c-4a89-9232-48deef62a808](https://github.com/YUVARJ-J/VLSI-LAB-EXP-3/assets/161425982/5d8b7fc3-1606-4559-bceb-28dfcd44452e)
 
 **Result**
+```
 Thus the simulation and implementation of binary multipliers is done and the outputs are verified successfully using xilinx ISE.
 
 

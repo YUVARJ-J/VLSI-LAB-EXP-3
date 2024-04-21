@@ -25,7 +25,7 @@ STEP:11  On the board, by giving required input, the LEDs starts to glow light, 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-3/assets/6987778/7713750f-65e6-41c0-8082-5005eac4031c)
 
 **Verilog code**
-
+```
 module HalfAdder(a,b,sum,carry);
 input a,b;
 output sum,carry;
@@ -44,7 +44,7 @@ and a4(w3,a[1],b[1]);
 HalfAdder h0(w1,w2,y[1],w4);
 HalfAdder h1(w3,w4,y[2],y[3]);
 endmodule
-
+```
 **Output Waveform**
 ![322251692-1a721c5c-f47d-4061-9f86-b1aedb05d4b0](https://github.com/YUVARJ-J/VLSI-LAB-EXP-3/assets/161425982/2dc02252-4d7f-43de-bfef-f4c35387e40b)
 
@@ -53,7 +53,7 @@ endmodule
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-3/assets/6987778/d95215dd-8cf1-4e08-93cc-96adfdd7fbdc)
 
 **Verilog code**
-
+```
 module ha(s,c,a,b);
 input a,b;
 output s,c;
@@ -107,7 +107,7 @@ fa fa6(p[4],c[10],w[13],s[5],c[9]);
 fa fa7(p[5],c[11],w[14],s[6],c[10]);
 fa fa8(p[6],p[7],w[15],c[8],c[11]);
 endmodule
-
+```
 **Output Waveform**
 
 ![322251775-4aa1b7bc-3e8c-4a89-9232-48deef62a808](https://github.com/YUVARJ-J/VLSI-LAB-EXP-3/assets/161425982/5d8b7fc3-1606-4559-bceb-28dfcd44452e)

@@ -25,6 +25,7 @@ STEP:11  On the board, by giving required input, the LEDs starts to glow light, 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-3/assets/6987778/7713750f-65e6-41c0-8082-5005eac4031c)
 
 **Verilog code**
+
 module HalfAdder(a,b,sum,carry);
 input a,b;
 output sum,carry;
@@ -52,6 +53,7 @@ endmodule
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-3/assets/6987778/d95215dd-8cf1-4e08-93cc-96adfdd7fbdc)
 
 **Verilog code**
+
 module ha(s,c,a,b);
 input a,b;
 output s,c;
